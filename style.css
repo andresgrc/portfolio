@@ -1,0 +1,19 @@
+a:any-link {
+	text-decoration: none;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	transition: all 3s;
+}
+
+h1:hover {
+	transform: rotate(360deg) scale(0.0);
+	cursor: pointer;
+}
+
+span {
+	font-family: 'Roboto Mono';
+	font-size: 6rem;
+}
